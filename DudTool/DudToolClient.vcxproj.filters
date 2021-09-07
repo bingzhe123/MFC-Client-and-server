@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="CDataShowTileWnd.cpp" />
+    <ClCompile Include="CDataShowWnd.cpp" />
+    <ClCompile Include="CEditEx.cpp" />
+    <ClCompile Include="CHomeChartWnd.cpp" />
+    <ClCompile Include="CLeftPannelWnd.cpp" />
+    <ClCompile Include="CMyButton.cpp" />
+    <ClCompile Include="CMyCheckWndGroup.cpp" />
+    <ClCompile Include="CMyContainerWnd.cpp" />
+    <ClCompile Include="CMyExpandWnd.cpp" />
+    <ClCompile Include="CMyLable.cpp" />
+    <ClCompile Include="CMylistCtrlWnd.cpp" />
+    <ClCompile Include="CMyStaticWindow.cpp" />
+    <ClCompile Include="CMyWindow.cpp" />
+    <ClCompile Include="CRoleManagerWnd.cpp" />
+    <ClCompile Include="CUserInfoWnd.cpp" />
+    <ClCompile Include="CUserManagerWnd.cpp" />
+    <ClCompile Include="DudToolClient.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="HttpHelper.cpp" />
+    <ClCompile Include="CLoginDlg.cpp">
+      <Filter>Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="CNewRoleDlg.cpp">
+      <Filter>Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="CBottomNavigateWnd.cpp" />
+    <ClCompile Include="CMyButtonInList.cpp" />
+    <ClCompile Include="CEditRoleDlg.cpp">
+      <Filter>Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="CSetRoleAuthority.cpp">
+      <Filter>Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="CMyCheckedExpandWnd.cpp" />
+    <ClCompile Include="CMyCheckBox.cpp" />
+    <ClCompile Include="CDataShowListWnd.cpp" />
+    <ClCompile Include="CMyScrollbarWnd.cpp" />
+    <ClCompile Include="CMyComboxWnd.cpp" />
+    <ClCompile Include="CDataInfoRegisterDlg.cpp">
+      <Filter>Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="CMyTextDisplayWnd.cpp" />
+    <ClCompile Include="CFileOperatorDlg.cpp">
+      <Filter>Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="CFileOperatorWnd.cpp" />
+    <ClCompile Include="CUploadFile.cpp" />
+    <ClCompile Include="DownLoadFile.cpp" />
+    <ClCompile Include="url.cpp" />
+    <ClCompile Include="CMyProgressButton.cpp" />
+    <ClCompile Include="CMyprogressBar.cpp" />
+    <ClCompile Include="CProgressManager.cpp" />
+    <ClCompile Include="DudToolClientDlg.cpp">
+      <Filter>Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="CNewUserDlg.cpp">
+      <Filter>Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="CSetUserRoleDlg.cpp">
+      <Filter>Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="CMyMutiSelectItemWnd.cpp" />
+    <ClCompile Include="CModifyUserInfoDlg.cpp">
+      <Filter>Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="CNewPatientTypeDlg.cpp">
+      <Filter>Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="CMyScrollWnd.cpp" />
+    <ClCompile Include="CMyBoderWnd.cpp" />
+    <ClCompile Include="CChangePasswordDlg.cpp">
+      <Filter>Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="CComboxWndManger.cpp" />
+    <ClCompile Include="CMyCalendar.cpp" />
+    <ClCompile Include="CDetailSearchDlg.cpp">
+      <Filter>Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="CConfirmDlg.cpp">
+      <Filter>Dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="CPaitentTypeCreateWnd.cpp" />
+    <ClCompile Include="CModifyPatientTypeDlg.cpp">
+      <Filter>Dlg</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CDataShowWnd.h" />
+    <ClInclude Include="CEditEx.h" />
+    <ClInclude Include="CHomeChartWnd.h" />
+    <ClInclude Include="CLeftPannelWnd.h" />
+    <ClInclude Include="CMyButton.h" />
+    <ClInclude Include="CMyCheckWndGroup.h" />
+    <ClInclude Include="CMyContainerWnd.h" />
+    <ClInclude Include="CMyExpandWnd.h" />
+    <ClInclude Include="CMyLable.h" />
+    <ClInclude Include="CMylistCtrlWnd.h" />
+    <ClInclude Include="CMyStaticWindow.h" />
+    <ClInclude Include="CMyWindow.h" />
+    <ClInclude Include="CommonDef.h" />
+    <ClInclude Include="CRoleManagerWnd.h" />
+    <ClInclude Include="CUserInfoWnd.h" />
+    <ClInclude Include="CUserManagerWnd.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="DudToolClient.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="HttpHelper.h" />
+    <ClInclude Include="CLoginDlg.h">
+      <Filter>Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="CNewRoleDlg.h">
+      <Filter>Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="CBottomNavigateWnd.h" />
+    <ClInclude Include="CMyButtonInList.h" />
+    <ClInclude Include="CEditRoleDlg.h">
+      <Filter>Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="CSetRoleAuthority.h">
+      <Filter>Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyCheckedExpandWnd.h" />
+    <ClInclude Include="CMyCheckBox.h" />
+    <ClInclude Include="CDataShowListWnd.h" />
+    <ClInclude Include="CMyScrollbarWnd.h" />
+    <ClInclude Include="CMyComboxWnd.h" />
+    <ClInclude Include="CDataInfoRegisterDlg.h">
+      <Filter>Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyTextDisplayWnd.h" />
+    <ClInclude Include="CFileOperatorDlg.h">
+      <Filter>Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="CFileOperatorWnd.h" />
+    <ClInclude Include="CUploadFile.h" />
+    <ClInclude Include="DownLoadFile.h" />
+    <ClInclude Include="url.hpp" />
+    <ClInclude Include="string.hpp" />
+    <ClInclude Include="CMyProgressButton.h" />
+    <ClInclude Include="CMyprogressBar.h" />
+    <ClInclude Include="CProgressManager.h" />
+    <ClInclude Include="DudToolClientDlg.h">
+      <Filter>Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="CNewUserDlg.h">
+      <Filter>Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="CSetUserRoleDlg.h">
+      <Filter>Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyMutiSelectItemWnd.h" />
+    <ClInclude Include="CModifyUserInfoDlg.h">
+      <Filter>Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="CNewPatientTypeDlg.h">
+      <Filter>Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyScrollWnd.h" />
+    <ClInclude Include="CMyBoderWnd.h" />
+    <ClInclude Include="CChangePasswordDlg.h">
+      <Filter>Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="CDataShowTileWnd.h" />
+    <ClInclude Include="CComboxWndManger.h" />
+    <ClInclude Include="CMyCalendar.h" />
+    <ClInclude Include="Resource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="CDetailSearchDlg.h">
+      <Filter>Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="CConfirmDlg.h">
+      <Filter>Dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="CPaitentTypeCreateWnd.h" />
+    <ClInclude Include="CModifyPatientTypeDlg.h">
+      <Filter>Dlg</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\data_select.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\data_unselect.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\DudToolClient.ico">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\expand.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\home_select.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\huang.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\home_unselect.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\lan.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\logo.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\MFCApplication2.ico">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\superMaria.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\tubiao.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\unexpand.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\xuanzhong.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\yiyuanfenbu.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\yonghuxinxi.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\zuixinruanjian.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\login_bk.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\login_bottom.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\login_button.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\login_dlg.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\loginbutton_click.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\arrorw_down.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\arrow_right.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\checkbox_normal.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\check_checked.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\attachment.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\cross_marker.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\icon_ownspace_1.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\icon_system_1.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\icon_system_2.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\arrow_up_select.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\arrow_up.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\arrow_d_select.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\arrow_d.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\line.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\star.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\question.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\quit.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\quit_select.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\arrow_down.png">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\arigin.ico">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\arigin22.ico">
+      <Filter>Resource</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>Resource</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{e7236635-1d96-4cef-83a3-d3a86d198968}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dlg">
+      <UniqueIdentifier>{a0cac0a1-08da-4f54-a598-53a95cf9c2f6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DudToolClient.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\DudToolClient.rc2">
+      <Filter>Resource</Filter>
+    </None>
+  </ItemGroup>
+</Project>

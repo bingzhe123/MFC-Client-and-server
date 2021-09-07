@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{8501BE21-4547-4CBF-8BAE-9B92ADAA2EF2}</ProjectGuid>
+    <Keyword>MFCProj</Keyword>
+    <RootNamespace>DudToolClient</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>DudToolClient</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>../include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalLibraryDirectories>../lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libcrypto.lib;libssl.lib</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>../include</AdditionalIncludeDirectories>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="CBottomNavigateWnd.h" />
+    <ClInclude Include="CChangePasswordDlg.h" />
+    <ClInclude Include="CComboxWndManger.h" />
+    <ClInclude Include="CConfirmDlg.h" />
+    <ClInclude Include="CDataInfoRegisterDlg.h" />
+    <ClInclude Include="CDataShowListWnd.h" />
+    <ClInclude Include="CDataShowTileWnd.h" />
+    <ClInclude Include="CDataShowWnd.h" />
+    <ClInclude Include="CDetailSearchDlg.h" />
+    <ClInclude Include="CEditEx.h" />
+    <ClInclude Include="CEditRoleDlg.h" />
+    <ClInclude Include="CFileOperatorDlg.h" />
+    <ClInclude Include="CFileOperatorWnd.h" />
+    <ClInclude Include="CHomeChartWnd.h" />
+    <ClInclude Include="CLeftPannelWnd.h" />
+    <ClInclude Include="CLoginDlg.h" />
+    <ClInclude Include="CModifyPatientTypeDlg.h" />
+    <ClInclude Include="CModifyUserInfoDlg.h" />
+    <ClInclude Include="CMyBoderWnd.h" />
+    <ClInclude Include="CMyButton.h" />
+    <ClInclude Include="CMyButtonInList.h" />
+    <ClInclude Include="CMyCalendar.h" />
+    <ClInclude Include="CMyCheckBox.h" />
+    <ClInclude Include="CMyCheckedExpandWnd.h" />
+    <ClInclude Include="CMyCheckWndGroup.h" />
+    <ClInclude Include="CMyComboxWnd.h" />
+    <ClInclude Include="CMyContainerWnd.h" />
+    <ClInclude Include="CMyExpandWnd.h" />
+    <ClInclude Include="CMyLable.h" />
+    <ClInclude Include="CMylistCtrlWnd.h" />
+    <ClInclude Include="CMyprogressBar.h" />
+    <ClInclude Include="CMyProgressButton.h" />
+    <ClInclude Include="CMyScrollbarWnd.h" />
+    <ClInclude Include="CMyMutiSelectItemWnd.h" />
+    <ClInclude Include="CMyScrollWnd.h" />
+    <ClInclude Include="CMyStaticWindow.h" />
+    <ClInclude Include="CMyTextDisplayWnd.h" />
+    <ClInclude Include="CMyWindow.h" />
+    <ClInclude Include="CNewPatientTypeDlg.h" />
+    <ClInclude Include="CNewRoleDlg.h" />
+    <ClInclude Include="CNewUserDlg.h" />
+    <ClInclude Include="CommonDef.h" />
+    <ClInclude Include="CPaitentTypeCreateWnd.h" />
+    <ClInclude Include="CProgressManager.h" />
+    <ClInclude Include="CRoleManagerWnd.h" />
+    <ClInclude Include="CSetRoleAuthority.h" />
+    <ClInclude Include="CSetUserRoleDlg.h" />
+    <ClInclude Include="CUploadFile.h" />
+    <ClInclude Include="CUserInfoWnd.h" />
+    <ClInclude Include="CUserManagerWnd.h" />
+    <ClInclude Include="DownLoadFile.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="DudToolClient.h" />
+    <ClInclude Include="DudToolClientDlg.h" />
+    <ClInclude Include="HttpHelper.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="string.hpp" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="url.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CBottomNavigateWnd.cpp" />
+    <ClCompile Include="CChangePasswordDlg.cpp" />
+    <ClCompile Include="CComboxWndManger.cpp" />
+    <ClCompile Include="CConfirmDlg.cpp" />
+    <ClCompile Include="CDataInfoRegisterDlg.cpp" />
+    <ClCompile Include="CDataShowListWnd.cpp" />
+    <ClCompile Include="CDataShowTileWnd.cpp" />
+    <ClCompile Include="CDataShowWnd.cpp" />
+    <ClCompile Include="CDetailSearchDlg.cpp" />
+    <ClCompile Include="CEditEx.cpp" />
+    <ClCompile Include="CEditRoleDlg.cpp" />
+    <ClCompile Include="CFileOperatorDlg.cpp" />
+    <ClCompile Include="CFileOperatorWnd.cpp" />
+    <ClCompile Include="CHomeChartWnd.cpp" />
+    <ClCompile Include="CLeftPannelWnd.cpp" />
+    <ClCompile Include="CLoginDlg.cpp" />
+    <ClCompile Include="CModifyPatientTypeDlg.cpp" />
+    <ClCompile Include="CModifyUserInfoDlg.cpp" />
+    <ClCompile Include="CMyBoderWnd.cpp" />
+    <ClCompile Include="CMyButton.cpp" />
+    <ClCompile Include="CMyButtonInList.cpp" />
+    <ClCompile Include="CMyCalendar.cpp" />
+    <ClCompile Include="CMyCheckBox.cpp" />
+    <ClCompile Include="CMyCheckedExpandWnd.cpp" />
+    <ClCompile Include="CMyCheckWndGroup.cpp" />
+    <ClCompile Include="CMyComboxWnd.cpp" />
+    <ClCompile Include="CMyContainerWnd.cpp" />
+    <ClCompile Include="CMyExpandWnd.cpp" />
+    <ClCompile Include="CMyLable.cpp" />
+    <ClCompile Include="CMylistCtrlWnd.cpp" />
+    <ClCompile Include="CMyprogressBar.cpp" />
+    <ClCompile Include="CMyProgressButton.cpp" />
+    <ClCompile Include="CMyScrollbarWnd.cpp" />
+    <ClCompile Include="CMyMutiSelectItemWnd.cpp" />
+    <ClCompile Include="CMyScrollWnd.cpp" />
+    <ClCompile Include="CMyStaticWindow.cpp" />
+    <ClCompile Include="CMyTextDisplayWnd.cpp" />
+    <ClCompile Include="CMyWindow.cpp" />
+    <ClCompile Include="CNewPatientTypeDlg.cpp" />
+    <ClCompile Include="CNewRoleDlg.cpp" />
+    <ClCompile Include="CNewUserDlg.cpp" />
+    <ClCompile Include="CPaitentTypeCreateWnd.cpp" />
+    <ClCompile Include="CProgressManager.cpp" />
+    <ClCompile Include="CRoleManagerWnd.cpp" />
+    <ClCompile Include="CSetRoleAuthority.cpp" />
+    <ClCompile Include="CSetUserRoleDlg.cpp" />
+    <ClCompile Include="CUploadFile.cpp" />
+    <ClCompile Include="CUserInfoWnd.cpp" />
+    <ClCompile Include="CUserManagerWnd.cpp" />
+    <ClCompile Include="DownLoadFile.cpp" />
+    <ClCompile Include="DudToolClient.cpp" />
+    <ClCompile Include="DudToolClientDlg.cpp" />
+    <ClCompile Include="HttpHelper.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="url.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DudToolClient.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\DudToolClient.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\arigin.ico" />
+    <Image Include="res\arigin22.ico" />
+    <Image Include="res\arrorw_down.png" />
+    <Image Include="res\arrow_d.png" />
+    <Image Include="res\arrow_down.png" />
+    <Image Include="res\arrow_d_select.png" />
+    <Image Include="res\arrow_right.png" />
+    <Image Include="res\arrow_up.png" />
+    <Image Include="res\arrow_up_select.png" />
+    <Image Include="res\attachment.png" />
+    <Image Include="res\checkbox_normal.png" />
+    <Image Include="res\check_checked.png" />
+    <Image Include="res\cross_marker.png" />
+    <Image Include="res\data_select.png" />
+    <Image Include="res\data_unselect.png" />
+    <Image Include="res\expand.png" />
+    <Image Include="res\home_select.png" />
+    <Image Include="res\home_unselect.png" />
+    <Image Include="res\huang.png" />
+    <Image Include="res\icon1.ico" />
+    <Image Include="res\icon_ownspace_1.png" />
+    <Image Include="res\icon_system_1.png" />
+    <Image Include="res\icon_system_2.png" />
+    <Image Include="res\lan.png" />
+    <Image Include="res\line.png" />
+    <Image Include="res\loginbutton_click.png" />
+    <Image Include="res\login_bk.png" />
+    <Image Include="res\login_bottom.png" />
+    <Image Include="res\login_button.png" />
+    <Image Include="res\login_dlg.png" />
+    <Image Include="res\logo.png" />
+    <Image Include="res\DudToolClient.ico" />
+    <Image Include="res\MFCApplication2.ico" />
+    <Image Include="res\question.png" />
+    <Image Include="res\quit.png" />
+    <Image Include="res\quit_select.png" />
+    <Image Include="res\star.png" />
+    <Image Include="res\superMaria.png" />
+    <Image Include="res\tubiao.png" />
+    <Image Include="res\unexpand.png" />
+    <Image Include="res\xuanzhong.png" />
+    <Image Include="res\yiyuanfenbu.png" />
+    <Image Include="res\yonghuxinxi.png" />
+    <Image Include="res\zuixinruanjian.png" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
